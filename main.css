@@ -29,4 +29,61 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+
+h1, h2, h2 {
+    margin: 0;
+}
+
+a {
+    color: var(--hotmag);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--hotmag);
+}
+
+
+/* inreo styles */
+
+#intro {
+    padding-bottom: 10rem;
+}
+
+#intro {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.name {
+    font-family: var(--mono);
+}
+
+.name span {
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display: block;
+}
+
+#intro h2 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+
+.contacts  {
+    /* width: 400px; */
+    background-color: var(--plum);
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.wrap {
+    text-wrap: break-word;
 }
