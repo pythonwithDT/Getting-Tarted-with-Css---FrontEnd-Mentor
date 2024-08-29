@@ -77,13 +77,33 @@ a:hover {
 
 
 .contacts  {
-    /* width: 400px; */
-    background-color: var(--plum);
+    width: 400px;
     margin: 0 auto;
     padding: 3rem 0;
     text-align: center;
 }
 
-.wrap {
-    text-wrap: break-word;
+nav {
+    font-family: var(--mono);
+    font-size: 80%;
+    padding: 1rem ;
+}
+
+nav h1 a {
+    font-family: var(--sans);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+}
+
+nav a {
+    text-decoration: none;
 }
