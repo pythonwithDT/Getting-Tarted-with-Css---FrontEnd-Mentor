@@ -5,6 +5,7 @@ as welll as the font stacks and sizes */
     --black: #171321;
     --dkblue: #0d314b;
     --plum: #4b0d49;
+    --magenta: #ff17e4;
     --hotmag: #e310cb;
     --aqua: #86fbfb;
     --white: #f7f8fa;
@@ -75,14 +76,6 @@ a:hover {
     font-weight: normal;
 }
 
-
-.contacts  {
-    width: 400px;
-    margin: 0 auto;
-    padding: 3rem 0;
-    text-align: center;
-}
-
 nav {
     font-family: var(--mono);
     font-size: 80%;
@@ -145,3 +138,51 @@ nav a {
     color: var(--hotmag);
 } */
 
+.contacts  {
+    background-color: var(--hotmag);    
+}
+
+.color {
+    width: 400px;
+    /* margin: auto auto; */
+    /* padding: 3rem 3rem; */
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 3rem;
+}
+
+footer ul{
+    color: magenta;
+}
+
+footer li:hover {
+    color: var(--white);
+}
+
+
+@media (min-width: 850px) {
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav li:first-child {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
+
+}
